@@ -31,3 +31,5 @@ End-to-End System Architecture
                                  ▼
          [ 9. Equity Curve: np.exp(strategy_ret.cumsum()) ]
 ```
+
+![Docs](Screenshot-2026-11-12_19-46-19.png)

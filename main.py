@@ -22,7 +22,7 @@ buy_trig = open_p <= anom_bottom
 close_trig = open_p >= fair_value
 
 
-realized_vol = ret.rolling(120, closed='left').std() * np.sqrt(252)
+realized_vol = ret.rolling(120, closed='left').std() * n*p.sqrt(252)
 target_vol = 0.15
 bobot_mentah = target_vol / realized_vol
 bobot_efektif = bobot_mentah.clip(0.1, 1.2)
